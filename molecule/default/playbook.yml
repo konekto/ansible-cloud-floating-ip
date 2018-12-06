@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  roles:
+    - role: ansible-cloud-floating-ip
+      vars:
+          floating_ip: 8.8.8.8
