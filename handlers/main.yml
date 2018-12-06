@@ -1,5 +1,5 @@
 ---
-- name: Ensure network service restarted
+- name: restart network
   service:
     name: network
     state: restarted
